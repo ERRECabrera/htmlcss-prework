@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+}
+* {
+	font-family: arial, sans-serif;
+	font-size: small;
+}
+#header_div {
+	width: 99%;
+	height: 32px;
+	display: block;
+	text-align: right;
+	color: #666;
+	margin-top: 15px;
+}
+div.text {
+	position: relative;
+	display: inline-block;
+	bottom: 10px;
+	margin-right: 5px;
+}
+#header_div span {
+	margin-right: 15px;
+}
+#footer_div {
+	position: fixed;
+	width: 100%;
+	height: 40px;
+	display: inline-block;
+	bottom: 0;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+}
+#footer_div > div {
+	line-height: 40px;
+}
+div.footer_left {
+	float: left;
+}
+div.footer_right {
+	float: right;
+	margin-right: 27px;
+}
+#main_div {
+	display: block;
+	margin: auto;
+	text-align: center;
+	margin-top: 150px;
+}
+#main_div div:nth-child(1) {
+	width: 600px;
+	text-align: center;
+	margin: auto;
+}
+#logo {
+	width: 272px;
+	height: 92px;
+	margin-left: 40px;
+}
+#espana {
+	position:relative;
+	color:#4285f4;
+	font: 16px roboto-regular, arial, sans-serif;
+	left: -57px;
+	top: -6px
+}
+#search_div {
+	height: 38px;
+	width: 600px;
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+	margin: 30px auto;
+	line-height: 38px;
+}
+#search_div:hover {
+	border-color: rgba(17,34,204,0.40);
+}
+#micro_icon {
+	height: 24px;
+	width: 24px;
+	padding: 8px;
+	float: right;
+}
+input {
+	position: relative;
+	width: 525px;
+	border: none;
+	padding: 0px;
+	outline: none;
+	font-size: 20px;
+	bottom: -4px;
+}
+#botones_div {
+	width: 500px;
+	height: auto;
+	margin: 40px auto 30px;
+	text-align: center;
+}
+span.boton {
+	height: 36px;
+	width: 153px;
+	line-height: 27px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	font-weight: bold;
+	margin: 0 4px;
+	padding: 10px 16px;
+	text-align: center;
+}
+span.boton:hover {
+	color: #222;
+	border-color: #c6c6c6
+}
+a {
+	padding: 0 3px;
+	color: #12c;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+footer div div span a {
+	color: #666;
+	margin-left: 27px;
+}
+header div div a {
+	color: #000;
+	margin-left: 7px;
+}
+#photo_perfil {
+	border-radius: 15px;
+}
+#bell_notifications {
+	position: relative;
+	width: 25px;
+	height: 25px;
+	opacity: 0.6;
+	bottom: 3px;
+}
+#bell_notifications:hover {
+	opacity: 1;
+}
+#app_icon {
+	position: relative;
+	bottom: 1px;
+	opacity: 0.6;
+}
+#app_icon:hover {
+	opacity: 1;
+}
